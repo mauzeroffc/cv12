@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	background: #E9E9E9;
+	color: #3E3E3E;
+	font-family: "Roboto", sans-serif;
+}
+
+a {
+	color: #3E3E3E;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #818181;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #C2C2C2;
+}
+
+#container {
+	max-width: 600px;
+	max-height: 600px;
+	margin: auto;
+}
+
+#block1 {
+	background: #C5C6FF;
+	border-radius: 10px 10px;
+	margin-bottom: 15px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	display: flex;
+}
+
+@media (max-width: 700px) {
+	#block1 {
+		text-align: center;
+		display: block;
+	}
+}
+
+#block1 h1 {
+	font-size: 27px;
+}
+
+#block1 img {
+	border-radius: 10px 10px;
+	width: 220px;
+	box-shadow: 4px 4px 3px #626262;
+	margin-top: 10px;
+}
+
+#block1 p {
+	font-style: italic;
+	color: #4A4A4A;
+}
+
+#block1 h4 {
+	margin-bottom: 5px;
+}
+
+#info_text {
+	margin-left: 15px;
+}
+
+
+
+#card1, #card2 {
+	padding: 5px 10px;
+	background: white;
+	margin-bottom: 20px;
+	border-radius: 15px 15px;
+}
+
+#card1 img {
+	width: 220px;
+}
+
+#card1 {
+	background-color: #FFEBB3;
+	box-sizing: border-box;
+}
+
+#card1 h2 {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+#test {
+	width: 100%;
+}
+
+#test tr {
+	padding-bottom: 10px;
+}
+
+#card2 {
+	background: #99B6C6;
+}
+
+#txt4 {
+	font-size: 13px;
+	color: #E8E8E8;
+}
